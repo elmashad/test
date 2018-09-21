@@ -5,7 +5,7 @@ import (
 	"net/http"
 )
 
-type bookingService struct {}
+type bookingService struct{}
 
 func NewBookingHandler() *bookingService {
 	return &bookingService{}
