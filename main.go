@@ -1,9 +1,9 @@
 package main
 
 import (
+	"github.com/elmashad/test/controllers"
 	"github.com/gorilla/mux"
 	"net/http"
-	"subscriber-app/controllers"
 )
 
 func main() {
@@ -15,4 +15,3 @@ func main() {
 	bookingrouter.Methods("POST").Path("").HandlerFunc(bookingHandler.AddBookingHandler)
 	http.ListenAndServe(":8033", r)
 }
-
