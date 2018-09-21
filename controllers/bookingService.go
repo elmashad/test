@@ -1,7 +1,6 @@
 package controllers
 
 import (
-	"fmt"
 	"net/http"
 )
 
@@ -13,5 +12,5 @@ func NewBookingHandler() *bookingService {
 
 func (eh *bookingService) AddBookingHandler(w http.ResponseWriter, r *http.Request) {
 
-	fmt.Fprint(w, `{"id":%d}`, 2222)
+	//fmt.Fprint(w, `{"id":%d}`, 2222)
 }
