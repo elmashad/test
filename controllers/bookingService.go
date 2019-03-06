@@ -27,6 +27,7 @@ func (eh *bookingService) AddBookingHandler(w http.ResponseWriter, r *http.Reque
 	fmt.Println("second commit")
 	fmt.Println("second commit")
 	fmt.Println("second commit")
+	fmt.Println("last commit")
 
 	//fmt.Fprint(w, `{"id":%d}`, 2222)
 }
