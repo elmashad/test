@@ -1,6 +1,7 @@
 package controllers
 
 import (
+	"fmt"
 	"net/http"
 )
 
@@ -11,6 +12,22 @@ func NewBookingHandler() *bookingService {
 }
 
 func (eh *bookingService) AddBookingHandler(w http.ResponseWriter, r *http.Request) {
+
+	fmt.Println("test commit")
+	fmt.Println("second commit")
+	fmt.Println("second commit")
+	fmt.Println("second commit")
+	fmt.Println("second commit")
+	fmt.Println("second commit")
+	fmt.Println("second commit")
+	fmt.Println("second commit")
+	fmt.Println("second commit")
+	fmt.Println("second commit")
+	fmt.Println("second commit")
+	fmt.Println("second commit")
+	fmt.Println("second commit")
+	fmt.Println("second commit")
+	fmt.Println("last commit")
 
 	//fmt.Fprint(w, `{"id":%d}`, 2222)
 }
